@@ -1,32 +1,109 @@
-# PROJECT-7: Strategic AI Agent System
+# 🧠 PROJECTY-7: Strategic AI Agent System
 
-PROJECT-7 is an evolving, modular AI assistant designed for planning, memory, tool integration, and agentic reasoning — built with a faith-first approach to serve others and reflect God's
-## Core Principles
+PROJECTY-7 is an evolving, modular AI assistant built for planning, memory, tool integration, and agentic reasoning — designed with a **faith-first** mindset to reflect God’s wisdom, enable human flourishing, and serve with excellence.
 
-- **Agentic Intelligence**: Modular architecture with reasoning and self-evolution
-- **Human-in-the-Loop**: All decisions approved by JP before execution
-- **Memory + Tools**: Retains context and uses plugins to complete tasks
-- **Faith-Guided**: Grounded in biblical principles and humility
-- **XP System**: Gamified development milestones toward S-Rank performance
+---
 
-## Current Modules
+## ✨ Core Principles
 
-- `agent_core/`: Strategic logic and execution flow
-- `memory/`: Context handling and task recall (JSON-based)
-- `tools/`: APIs, file ops, and plugin commands
-- `interface/`: CLI or future frontend
-- `logs/`: Dev journal and output logs
-- `tests/`: Unit tests and validation
+- 🧠 **Agentic Intelligence**: Modular architecture with reasoning and self-evolving task flows  
+- 🙋 **Human-in-the-Loop**: All actions approved by JP before execution  
+- 🧠 **Memory + Tools**: Learns from prior tasks, and calls plugins like a real AI assistant  
+- ✝️ **Faith-Guided**: Grounded in biblical principles and humility  
+- 🧬 **XP System**: Gamified development with level-ups toward S-Rank performance  
 
-## Getting Started
+---
+
+## 🧩 Features
+
+| Ability            | Description                                              |
+|--------------------|----------------------------------------------------------|
+| 🧠 Memory Engine    | Logs every session + task to a searchable JSON file      |
+| 🛠️ Tool Execution   | Dynamically routes actions like saving files or summaries |
+| 📚 Recall           | Find past missions using keyword search                  |
+| 🧾 Logger           | Saves each session to a `.txt` file in `/logs/`          |
+| 🔁 Modular Tools    | Easily add custom tools like LLM, planners, APIs         |
+
+---
+
+## 📂 Current Modules
+
+| Module           | Description                                     |
+|------------------|-------------------------------------------------|
+| `agent_core/`     | Strategic logic and mission execution           |
+| `memory/`         | Context handling and task recall (JSON-based)   |
+| `tools/`          | File operations, summarizer, planner plugins    |
+| `interface/`      | CLI or UI for future control                    |
+| `logs/`           | Dev journal and output session logs             |
+| `tests/`          | Unit tests and future validation suite          |
+
+---
+
+## 💻 Live Example
 
 ```bash
-# Navigate to project root
-cd PROJECT-7
+$ python run_agent.py
+🧠 PROJECTY-7 Activated
+Enter your objective: Build a weekly system for rest + work.
+
+🤖 Planning and Executing...
+
+[Tool:file_writer] Saved to data/note_*.txt
+[Executed] Step 2: Check memory for relevant info
+[Tool:summarizer] Summary: Build a weekly system for rest + work.
+```
+
+```bash
+Enter a keyword to recall from memory: weekly
+📚 Memory Results: 2 matching logs
+```
+
+---
+
+## 🆙 XP Roadmap
+
+| Level   | Goal                                     | Status |
+|---------|------------------------------------------|--------|
+| 🅱️ B-Rank | MVP Core Agent (tools + memory + logging) | ✅ Done |
+| 🅰️ A-Rank | Task planner, tool chaining, scheduling     | 🔜 WIP |
+| 🆙 S-Rank | LLM integration, API actions, self-evolution | ⏳ Vision |
+
+---
+
+
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone and enter project
+cd PROJECTY-7
 
 # Create virtual environment
 python -m venv venv
-.\venv\Scripts\activate   # (Windows)
+.\venv\Scripts\activate     # (Windows)
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+---
+
+## 📜 License
+
+MIT License © 2025 YUGISUNG  
+See [LICENSE](LICENSE) for details.
+
+---
+
+## 🙌 Contributing
+
+This is a God-led, human-guided project.  
+Pull requests welcome — especially for:
+- New tools (planners, LLMs, agents)
+- UX or front-end wrappers
+- Optimization or testing
+
+Let everything we build reflect wisdom, excellence, and truth.
+
