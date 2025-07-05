@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs and memory
+logs/
+data/
+memory/memory_log.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Env vars
+.env
