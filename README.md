@@ -86,7 +86,6 @@ See [LICENSE](LICENSE) for details.
 
 ## 🙌 Contributing
 
-This is a God-led, human-guided project.  
 Pull requests welcome — especially for:
 - New tools (planners, LLMs, agents)
 - UX or front-end wrappers
