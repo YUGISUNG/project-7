@@ -60,19 +60,6 @@ Enter a keyword to recall from memory: weekly
 
 ---
 
-## 🆙 XP Roadmap
-
-| Level   | Goal                                     | Status |
-|---------|------------------------------------------|--------|
-| 🅱️ B-Rank | MVP Core Agent (tools + memory + logging) | ✅ Done |
-| 🅰️ A-Rank | Task planner, tool chaining, scheduling     | 🔜 WIP |
-| 🆙 S-Rank | LLM integration, API actions, self-evolution | ⏳ Vision |
-
----
-
-
-
----
 
 ## 🚀 Getting Started
 
